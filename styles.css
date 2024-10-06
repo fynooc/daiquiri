@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Arkana';
+    src: url('images/Vasek/Vasek\ Italic_0.ttf');
+}
+
+*{margin: 0; padding: 0; color: #4D2D1E;}
+body{background-color: #4D2D1E;
+    background-image: url('images/bg-big.jpeg');
+    background-attachment: fixed;
+    background-size: auto 100%;}
+
+#main_container{
+    
+    background-image: url('images/blur.png');
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 70vw;
+    margin:auto;
+    opacity: 95%;
+}
+header{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    padding-bottom: 1vh;
+    border-bottom: 2px solid #4D2D1E;
+    
+}
+
+#navbar{
+    display: flex;
+}
+
+#navbar li{
+    display: inline-block;
+    font-size: 1.5em;
+    margin-left: 1.4vw;
+}
+#navbar a{
+    font-family: 'Arkana';
+    text-decoration: none;
+    font-size: 5vh;
+    font-weight: 400;
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
+article{
+    position: relative;
+    top:23%;
+    left:20%;
+    width: 60%;
+    height: 55%;
+    text-align: center;
+    overflow: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+article::-webkit-scrollbar{display: hidden;}
+.slide{
+    height: 55vh;
+}
+.page{
+    display: flex;
+    align-content: center;
+    height: 50vh;
+}
+.text{
+    width:40%;
+    font-family: monospace;
+    font-size: 2vh;
+    align-content: center;
+    text-align: justify;
+}
+.text p::first-letter{
+    margin-left: 1vw;
+}

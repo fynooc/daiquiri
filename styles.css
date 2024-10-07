@@ -67,11 +67,15 @@ article::-webkit-scrollbar{display: hidden;}
     height: 50vh;
 }
 .text{
-    width:40%;
+    width:48%;
+    padding: 0 1.5vw;
     font-family: monospace;
-    font-size: 2vh;
+    font-size: 1.8vh;
     align-content: center;
     text-align: justify;
+}
+.text p{
+    margin-bottom: 2vh;
 }
 .text p::first-letter{
     margin-left: 1vw;
